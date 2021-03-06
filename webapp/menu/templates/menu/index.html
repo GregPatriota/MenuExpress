@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cardápio do Mercadinho</title>
+</head>
+<body>
+    <ul>
+        {% for product in available_products %}
+            <li><a href="/menu/{{ product.id }}/">{{ product.name }}</a></li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
