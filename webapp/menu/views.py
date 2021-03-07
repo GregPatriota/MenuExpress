@@ -11,7 +11,7 @@ def health(request):
 
 def index(request):
     available_products = SimpleProductToSell.objects.order_by('id')
-    template = loader.get_template('menu/index.html')
+    template = loader.get_template('menu/ui-tables.html')
     for a in available_products:
         print(a.name)
 
