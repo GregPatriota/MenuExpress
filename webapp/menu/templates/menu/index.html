@@ -5,11 +5,19 @@
     <title>Cardápio do Mercadinho</title>
 </head>
 <body>
-    <ul>
+    <table border="1">
+        <tr>
+            <td>Nome</td>
+            <td>Preço</td>
+            <td>Quantidade</td>
+        </tr>
         {% for product in available_products %}
-            <li><a href="/menu/{{ product.id }}/">{{ product.name }}</a></li>
+        <tr>
+            <td>{{ product.name }}</td>
+            <td>{{ product.price }}</td>
+            <td><input type="number"></td>
+        </tr>
         {% endfor %}
-    </ul>
-
+    </table>
 </body>
 </html>
