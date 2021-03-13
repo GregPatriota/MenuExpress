@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="be0a69c9-402d-4cdd-bb41-3f291a84b22c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/menuexpress/templates/includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/menuexpress/templates/includes/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/menu/templates/menu/ui-tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/menu/templates/menu/ui-tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/menu/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/menu/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/menuexpress/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/menuexpress/templates/includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/menuexpress/templates/includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/menuexpress/templates/includes/sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/menuexpress/templates/layouts/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/menuexpress/templates/layouts/base.html" afterDir="false" />
     </list>

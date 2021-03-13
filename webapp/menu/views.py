@@ -16,7 +16,7 @@ def index(request):
         print(a.name)
 
     context = {
-        'available_products': available_products,
+        'product_list': available_products,
     }
     # return HttpResponse(available_products)
     # return render(request, 'menu/index.html')
